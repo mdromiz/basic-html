@@ -1,0 +1,12 @@
+CLONE:
+git clone <url>
+------------------------------
+GIT ADD
+git add . (all)
+git add index.html
+
+GIT COMMIT
+git commit -m "commands...."
+
+GIT PUSH
+git push (if username passward are required then type ur cradintial)
