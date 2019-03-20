@@ -3,112 +3,106 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>simple page</title>
-    <!--<link href="style.css" rel="stylesheet" type="text/css" />--> 
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" /> 
     <!--<link href="step_2.css" rel="stylesheet" type="text/css" />-->
     <link rel="shortcut icon" href="images/favicon.ico" />
-    <style>
-        /* Background-Styles */
-
-        body {
-            margin:0px; padding:0px;
-            background-color:#131211;
-        }
-        #main {
-            background:#c4c0be url(images/background_light_slice.jpg) repeat-x;
-        }
-        #main .container {
-            background-image:url(images/background_light.jpg);
-            background-repeat:no-repeat;
-            min-height:400px;
-        }
-        #footer {
-            background-image:url(images/background_footer.jpg);
-            background-repeat:repeat-x;
-            color:white;
-            padding:40px;
-        }
-        .container {
-            width:950px;
-            margin:0 auto;
-            position:relative; //Absolute, Fixed, Relative
-        }
-        #header {
-            padding-top:20px;
-        }
-        #logo h1, #logo small {
-            margin:0px;
-            display:block;
-            text-indent:-9999px;
-        }
-        #logo {
-            background-image:url(images/logo.png);
-            background-repeat:no-repeat;
-            width:194px;
-            height:83px;
-        }
-         
-        
-        ul#menu {
-	margin:0px; padding:0px;
-	position:absolute;
-	right:0px;
-        }
-        ul#menu li {
-                display:inline;
-                margin-left:12px;
-        }
-        ul#menu li a {
-                text-decoration:none;
-                color:#716d6a;
-                font-family:Verdana, Arial, Helvetica, sans-serif;
-                font-size:10px;
-                font-weight:bold;
-                text-transform:uppercase;
-        }
-        ul#menu li a.active, ul#menu li a:hover {
-                color:#211e1e;
-        }
-        
-        
-        img, #logo { behavior: url(scripts/iepngfix.htc); }
-    </style>
+    
 </head>
  
 <body>
     <div id="main">
-        <div class="container">
-         
-            <div id="header">
-             
+        <div class="container">         
+            <div id="header">             
                 <ul id="menu">
-                    <li><a href="">Portfolio</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Testimonials</a></li>
                     <li><a href="">Request a Quote</a></li>
-                </ul>
-                 
+                </ul>                 
                 <div id="logo">
                     <h1>Creatif</h1>
                     <small>A Family of Rockstar Wordpress Themes</small>
-                </div>
-                 
-                 
-             
+                </div>          
             </div>
              
-            <div id="block_feature">
-             
-                Featured Content
-             
+            <div id="block_feature" class="block">
+                <div class="block_inside">
+                    <div class="image_block">
+                        <img src="assets/images/sample_feature.jpg" alt="Thumb" />
+                    </div>
+                    <div class="text_block">
+                        <h2>Eden Website Design</h2>
+                        <small>in <a href="">web design</a> tagged <a href="">corporate</a>, <a href="">web2</a></small>
+
+                        <p>And then a short description of the website would go in here.  Something saying maybe what awesome skills I used on the project and how happy the client was. </p>
+                        <br />
+                        <a href="" class="button">View Project</a>
+                    </div>
+                </div>          
             </div>
              
-            <div id="block_content">
-             
-                Content
-             
-            </div>
-         
+            <div id="block_content">             
+                <div id="content_area" class="block">
+                    <div class="block_inside">
+                      
+                        <h2>Working on a New Project</h2>
+                        <small>on <a href="">april 13</a> in <a href="">web design</a> tagged <a href="">blogging</a></small>                        
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla mi risus, tempor in, gravida quis, rutrum vitae, massa. Suspendisse congue, nibh et lacinia sodales. </p>
+                        <p>Risus nulla fringilla enim, sit amet adipiscing sapien risus sed velit. Sed vitae justo. In quis lorem nec justo varius sodales. Nullam eleifend accumsan mi. Nunc at velit. Maecenas velit. <a href="#">Read More</a></p>
+                         
+                        <div class="separator"></div>
+                         
+                        <h2>Design Awards!</h2>
+                        <small>on <a href="">april 13</a> in <a href="">web design</a> tagged <a href="">blogging</a></small>                        
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla mi risus, tempor in, gravida quis, rutrum vitae, massa. Suspendisse congue, nibh et lacinia sodales. </p>
+                        <p>Risus nulla fringilla enim, sit amet adipiscing sapien risus sed velit. Sed vitae justo. In quis lorem nec justo varius sodales. Nullam eleifend accumsan mi. Nunc at velit. Maecenas velit. <a href="#">Read More</a></p>
+                         
+                        <div class="separator"></div>
+                         
+                        <h2>This Site is Almost Complete Finally...</h2>
+                        <small>on <a href="">april 13</a> in <a href="">web design</a> tagged <a href="">blogging</a></small>                        
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla mi risus, tempor in, gravida quis, rutrum vitae, massa. Suspendisse congue, nibh et lacinia sodales. </p>
+                        <p>Risus nulla fringilla enim, sit amet adipiscing sapien risus sed velit. Sed vitae justo. In quis lorem nec justo varius sodales. Nullam eleifend accumsan mi. Nunc at velit. Maecenas velit. <a href="#">Read More</a></p>
+                         
+                         
+                    </div>
+                 </div>
+                 <div id="sidebar">
+                    <img src="assets/images/ribbon_browse.png" class="ribbon" alt="Featured Project"/>
+                    <div class="block_inside">
+                     
+                        <h3>Subscribe</h3>
+                         
+                        <ul>
+                            <li><a href="">RSS Feed</a></li>
+                            <li><a href="">Email Updates</a></li>
+                        </ul>  
+                         
+                        <h3>Categories</h3>
+                         
+                        <ul>
+                            <li><a href="">News</a></li>
+                            <li><a href="">Marketing</a></li>
+                            <li><a href="">General</a></li>
+                            <li><a href="">Great Sites</a></li>                                                        
+                        </ul>  
+                         
+                        <h3>Archives</h3>
+                         
+                        <ul>
+                            <li><a href="">June 2008</a></li>
+                            <li><a href="">May 2008</a></li>
+                            <li><a href="">April 2008</a></li>
+                            <li><a href="">March 2008</a></li>                                                        
+                        </ul>                            
+                     
+                    </div>
+                 </div>
+                  
+                 <!-- a Clearing DIV to clear the DIV's because overflow:auto doesn't work here -->
+                 <div style="clear:both"></div>            
+            </div>         
         </div>
     </div>
  
