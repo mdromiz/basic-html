@@ -2,8 +2,9 @@ CLONE:
 git clone <url>
 ------------------------------
 GIT ADD
-git add . (all)
-git add index.html
+git add . (all) 
+or
+git add index.html (for single file)
 
 GIT COMMIT
 git commit -m "commands...."

@@ -1,0 +1,81 @@
+
+#header {
+    padding-top:20px;
+}
+
+ul#menu {
+    margin:0px; padding:0px;
+    position:absolute;
+    right:0px;
+}
+ul#menu li {
+        display:inline;
+        margin-left:12px;
+}
+ul#menu li a {
+        text-decoration:none;
+        color:#716d6a;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size:10px;
+        font-weight:bold;
+        text-transform:uppercase;
+}
+ul#menu li a.active, ul#menu li a:hover {
+        color:#211e1e;
+} 
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: blue;
+    padding: 20px;
+    font-family: Arial;
+
+      background-image: url("assets/images/servicebackgroundimage.jpg");
+      background-repeat: round;
+      background-attachment: fixed;
+  }             
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    word-break: break-all;
+}
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+.row {
+    margin: 8px -16px;
+}
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}

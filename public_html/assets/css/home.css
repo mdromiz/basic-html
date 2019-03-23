@@ -1,6 +1,6 @@
- body {
-            margin:0px; padding:0px;
-            background-color:#131211;
+ .body{
+            margin:0px; padding:0px;            
+            background:  red !important;
         }
 #main {
     background:#c4c0be url(public_html/assets/images/background_light_slice.jpg) repeat-x;
@@ -61,7 +61,7 @@ ul#menu li a.active, ul#menu li a:hover {
  /*img, #logo { behavior: url(scripts/iepngfix.htc); }*/ 
 
 
- .block {
+ .block {     
     border:1px solid #a3a09e;
     background-color:#ffffff;
     margin-bottom:20px;
@@ -107,10 +107,14 @@ ul#menu li a.active, ul#menu li a:hover {
     margin-top:15px;
     background-color:#e2dddc;
     border:1px solid #a3a09e;
+    margin-top: auto;
 }
 #sidebar .block_inside {
     background:none;
     background-color:#e2dddc;
+}
+#sidebar .img{
+    margin: 100px;
 }
 
 #sidebar h3 {

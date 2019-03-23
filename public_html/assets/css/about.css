@@ -1,0 +1,50 @@
+    
+        
+#header {
+    padding-top:20px;
+}
+
+ul#menu {
+    margin:0px; padding:0px;
+    position:absolute;
+    right:0px;
+}
+ul#menu li {
+        display:inline;
+        margin-left:12px;
+}
+ul#menu li a {
+        text-decoration:none;
+        color:#716d6a;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size:10px;
+        font-weight:bold;
+        text-transform:uppercase;
+}
+ul#menu li a.active, ul#menu li a:hover {
+        color:#211e1e;
+} 
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    padding: 20px;
+    font-family: Arial; 
+}
+
+.anpit{
+    font-size: 100px;
+}
+
+.table{
+    border: 1px solid blue;
+    
+}
+
+thead{
+    background-color: grey;
+}
